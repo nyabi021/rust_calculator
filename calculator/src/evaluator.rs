@@ -1,5 +1,4 @@
 use crate::parser::Token;
-use crate::operation::Operation;
 
 pub fn evaluate_rpn(tokens: Vec<Token>) -> Option<f64> {
     let mut stack = Vec::new();
